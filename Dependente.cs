@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace PedagogyOn_2021
 {
-    class Dependente : Pessoa
+    public class Dependente : Pessoa
     {
-        private int cod_dependente;
+        private int idDependente;
         private string observacoes;
         private Cliente cliente;
 
         public int Cod_dependente
         {
-            get { return cod_dependente; }
+            get { return idDependente; }
         }
 
         public string Observacoes

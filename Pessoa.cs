@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PedagogyOn_2021
 {
-    class Pessoa
+    public class Pessoa
     {
         private string nome;
         private string cpf;
@@ -23,8 +23,8 @@ namespace PedagogyOn_2021
         private string senha;
 
 
-        public string Nome 
-        { 
+        public string Nome
+        {
             get { return nome; }
             set { nome = value; }
         }
@@ -32,11 +32,13 @@ namespace PedagogyOn_2021
         public string Cpf
         {
             get { return cpf; }
+            set { cpf = value; }
         }
 
         public string Rg
         {
             get { return rg; }
+            set { rg = value; }
         }
 
         public string Orgao_exp
@@ -90,11 +92,13 @@ namespace PedagogyOn_2021
         public string Email
         {
             get { return email; }
+            set { email = value; }
         }
 
         public string Senha
         {
             get { return senha; }
+            set { senha = value; }
         }
 
     }

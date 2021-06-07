@@ -5,10 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace PedagogyOn_2021
-{ 
-    class Contrato
+{
+    public class Contrato
     {
-        private int cod_contrato;
+        private int idContrato;
         private DateTime data;
         private float valor_pago;
         private string descricao;
@@ -18,9 +18,9 @@ namespace PedagogyOn_2021
         private Dependente dependente;
         private Profissional profissional;
 
-        public int Cod_contrato
+        public int IdContrato
         {
-            get { return cod_contrato; }
+            get { return idContrato; }
         }
 
         public DateTime Data

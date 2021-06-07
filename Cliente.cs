@@ -6,13 +6,20 @@ using System.Threading.Tasks;
 
 namespace PedagogyOn_2021
 {
-    class Cliente : Pessoa
+    public class Cliente : Pessoa
     {
-        private int cod_cliente;
+        private int idCliente;
+        private int tipo;
 
-        public int Cod_cliente
+        public int IdCliente
         {
-            get { return cod_cliente; }
+            get { return idCliente; }
+        }
+
+        public int Tipo
+        {
+            get { return tipo; }
+            set { tipo = value; }
         }
     }
 }

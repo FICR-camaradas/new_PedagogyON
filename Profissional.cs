@@ -6,15 +6,16 @@ using System.Threading.Tasks;
 
 namespace PedagogyOn_2021
 {
-    class Profissional : Pessoa
+    public class Profissional : Pessoa
     {
-        private int cod_profissional;
+        private int idProfissional;
         private string especializacao;
         private string observacoes;
+        private int tipo;
 
-        public int Cod_profissional
+        public int IdProfissional
         {
-            get { return cod_profissional; }
+            get { return idProfissional; }
         }
 
         public string Especializacao
@@ -28,5 +29,12 @@ namespace PedagogyOn_2021
             get { return observacoes; }
             set { observacoes = value; }
         }
+
+        public int Tipo
+        {
+            get { return tipo; }
+            set { tipo = value; }
+        }
+
     }
 }
