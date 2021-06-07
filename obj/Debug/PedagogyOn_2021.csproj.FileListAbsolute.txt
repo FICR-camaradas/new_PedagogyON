@@ -1,0 +1,61 @@
+C:\Users\danie\source\repos\PedagogyOn_2021\obj\Debug\PedagogyOn_2021.csprojAssemblyReference.cache
+C:\Users\danie\source\repos\PedagogyOn_2021\obj\Debug\PedagogyOn_2021.frmChat.resources
+C:\Users\danie\source\repos\PedagogyOn_2021\obj\Debug\PedagogyOn_2021.frmLogin.resources
+C:\Users\danie\source\repos\PedagogyOn_2021\obj\Debug\PedagogyOn_2021.frmPagamento.resources
+C:\Users\danie\source\repos\PedagogyOn_2021\obj\Debug\PedagogyOn_2021.Properties.Resources.resources
+C:\Users\danie\source\repos\PedagogyOn_2021\obj\Debug\PedagogyOn_2021.csproj.GenerateResource.cache
+C:\Users\danie\source\repos\PedagogyOn_2021\obj\Debug\PedagogyOn_2021.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\PedagogyOn_2021\bin\Debug\PedagogyOn_2021.exe.config
+C:\Users\danie\source\repos\PedagogyOn_2021\bin\Debug\PedagogyOn_2021.exe
+C:\Users\danie\source\repos\PedagogyOn_2021\bin\Debug\PedagogyOn_2021.pdb
+C:\Users\danie\source\repos\PedagogyOn_2021\obj\Debug\PedagogyOn_2021.exe
+C:\Users\danie\source\repos\PedagogyOn_2021\obj\Debug\PedagogyOn_2021.pdb
+C:\Projeto 2021.1\pedagogyon_2021\bin\Debug\PedagogyOn_2021.exe.config
+C:\Projeto 2021.1\pedagogyon_2021\bin\Debug\PedagogyOn_2021.exe
+C:\Projeto 2021.1\pedagogyon_2021\bin\Debug\PedagogyOn_2021.pdb
+C:\Projeto 2021.1\pedagogyon_2021\obj\Debug\PedagogyOn_2021.csprojAssemblyReference.cache
+C:\Projeto 2021.1\pedagogyon_2021\obj\Debug\PedagogyOn_2021.frmChat.resources
+C:\Projeto 2021.1\pedagogyon_2021\obj\Debug\PedagogyOn_2021.frmLogin.resources
+C:\Projeto 2021.1\pedagogyon_2021\obj\Debug\PedagogyOn_2021.frmPagamento.resources
+C:\Projeto 2021.1\pedagogyon_2021\obj\Debug\PedagogyOn_2021.Properties.Resources.resources
+C:\Projeto 2021.1\pedagogyon_2021\obj\Debug\PedagogyOn_2021.csproj.GenerateResource.cache
+C:\Projeto 2021.1\pedagogyon_2021\obj\Debug\PedagogyOn_2021.csproj.CoreCompileInputs.cache
+C:\Projeto 2021.1\pedagogyon_2021\obj\Debug\PedagogyOn_2021.exe
+C:\Projeto 2021.1\pedagogyon_2021\obj\Debug\PedagogyOn_2021.pdb
+C:\Projeto 2021.1\pedagogyon_2021\obj\Debug\PedagogyOn_2021.cadastro1.resources
+C:\Users\tales\Desktop\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.csprojAssemblyReference.cache
+C:\Users\tales\Desktop\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.Form1.resources
+C:\Users\tales\Desktop\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.frmChat.resources
+C:\Users\tales\Desktop\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.frmLogin.resources
+C:\Users\tales\Desktop\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.frmPagamento.resources
+C:\Users\tales\Desktop\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.cadastro1.resources
+C:\Users\tales\Desktop\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.Properties.Resources.resources
+C:\Users\tales\Desktop\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.csproj.GenerateResource.cache
+C:\Users\tales\Desktop\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.csproj.CoreCompileInputs.cache
+C:\Users\tales\Desktop\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.exe
+C:\Users\tales\Desktop\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.pdb
+C:\Users\tales\Desktop\pedagogyon_2021-master\bin\Debug\PedagogyOn_2021.exe.config
+C:\Users\tales\Desktop\pedagogyon_2021-master\bin\Debug\PedagogyOn_2021.exe
+C:\Users\tales\Desktop\pedagogyon_2021-master\bin\Debug\PedagogyOn_2021.pdb
+C:\Users\tales\Desktop\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.FormPerfiLinteiro.resources
+C:\Users\tales\Desktop\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.FormBusca.resources
+C:\Users\tales\Desktop\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.PerfilUsuario2.resources
+C:\Users\tales\Desktop\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.FormInfo.resources
+B:\push\pedagogyon_2021-master\bin\Debug\PedagogyOn_2021.exe.config
+B:\push\pedagogyon_2021-master\bin\Debug\PedagogyOn_2021.exe
+B:\push\pedagogyon_2021-master\bin\Debug\PedagogyOn_2021.pdb
+B:\push\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.csprojAssemblyReference.cache
+B:\push\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.Form1.resources
+B:\push\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.FormBusca.resources
+B:\push\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.frmChat.resources
+B:\push\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.FormInfo.resources
+B:\push\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.frmLogin.resources
+B:\push\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.frmPagamento.resources
+B:\push\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.cadastro1.resources
+B:\push\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.FormPerfiLinteiro.resources
+B:\push\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.PerfilUsuario2.resources
+B:\push\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.Properties.Resources.resources
+B:\push\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.csproj.GenerateResource.cache
+B:\push\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.csproj.CoreCompileInputs.cache
+B:\push\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.exe
+B:\push\pedagogyon_2021-master\obj\Debug\PedagogyOn_2021.pdb
