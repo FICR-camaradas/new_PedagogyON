@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cadastro2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastro2.designer.cs">
+      <DependentUpon>cadastro2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cliente.cs" />
     <Compile Include="Contrato.cs" />
     <Compile Include="Dependente.cs" />
@@ -104,6 +110,9 @@
     <Compile Include="Profissional.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="cadastro2.resx">
+      <DependentUpon>cadastro2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
