@@ -32,40 +32,40 @@ namespace PedagogyOn_2021
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(cadastro2));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxNome = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBoxCpf = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBoxRg = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBoxOrg = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBoxM = new System.Windows.Forms.CheckBox();
+            this.checkBoxF = new System.Windows.Forms.CheckBox();
+            this.checkBoxO = new System.Windows.Forms.CheckBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBoxFone = new System.Windows.Forms.TextBox();
+            this.textBoxEndereco = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBoxCep = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBoxBairro = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.listBox2 = new System.Windows.Forms.ListBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBoxEmail = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBoxEsp = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBoxObs = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.textBoxSenha = new System.Windows.Forms.TextBox();
+            this.buttonCad = new System.Windows.Forms.Button();
+            this.textBoxCidade = new System.Windows.Forms.TextBox();
+            this.textBoxUF = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -88,12 +88,12 @@ namespace PedagogyOn_2021
             this.label1.TabIndex = 1;
             this.label1.Text = "Nome";
             // 
-            // textBox1
+            // textBoxNome
             // 
-            this.textBox1.Location = new System.Drawing.Point(103, 153);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(481, 20);
-            this.textBox1.TabIndex = 2;
+            this.textBoxNome.Location = new System.Drawing.Point(103, 153);
+            this.textBoxNome.Name = "textBoxNome";
+            this.textBoxNome.Size = new System.Drawing.Size(481, 20);
+            this.textBoxNome.TabIndex = 2;
             // 
             // label2
             // 
@@ -104,12 +104,12 @@ namespace PedagogyOn_2021
             this.label2.TabIndex = 3;
             this.label2.Text = "CPF";
             // 
-            // textBox2
+            // textBoxCpf
             // 
-            this.textBox2.Location = new System.Drawing.Point(103, 185);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(216, 20);
-            this.textBox2.TabIndex = 4;
+            this.textBoxCpf.Location = new System.Drawing.Point(103, 185);
+            this.textBoxCpf.Name = "textBoxCpf";
+            this.textBoxCpf.Size = new System.Drawing.Size(216, 20);
+            this.textBoxCpf.TabIndex = 4;
             // 
             // label3
             // 
@@ -120,12 +120,12 @@ namespace PedagogyOn_2021
             this.label3.TabIndex = 5;
             this.label3.Text = "RG";
             // 
-            // textBox3
+            // textBoxRg
             // 
-            this.textBox3.Location = new System.Drawing.Point(380, 185);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(205, 20);
-            this.textBox3.TabIndex = 6;
+            this.textBoxRg.Location = new System.Drawing.Point(380, 185);
+            this.textBoxRg.Name = "textBoxRg";
+            this.textBoxRg.Size = new System.Drawing.Size(205, 20);
+            this.textBoxRg.TabIndex = 6;
             // 
             // label4
             // 
@@ -136,12 +136,12 @@ namespace PedagogyOn_2021
             this.label4.TabIndex = 7;
             this.label4.Text = "Orgão Expedidor";
             // 
-            // textBox4
+            // textBoxOrg
             // 
-            this.textBox4.Location = new System.Drawing.Point(151, 229);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(168, 20);
-            this.textBox4.TabIndex = 8;
+            this.textBoxOrg.Location = new System.Drawing.Point(151, 229);
+            this.textBoxOrg.Name = "textBoxOrg";
+            this.textBoxOrg.Size = new System.Drawing.Size(168, 20);
+            this.textBoxOrg.TabIndex = 8;
             // 
             // dateTimePicker1
             // 
@@ -168,35 +168,35 @@ namespace PedagogyOn_2021
             this.label6.TabIndex = 11;
             this.label6.Text = "Sexo";
             // 
-            // checkBox1
+            // checkBoxM
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(96, 264);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(74, 17);
-            this.checkBox1.TabIndex = 12;
-            this.checkBox1.Text = "Masculino";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBoxM.AutoSize = true;
+            this.checkBoxM.Location = new System.Drawing.Point(96, 264);
+            this.checkBoxM.Name = "checkBoxM";
+            this.checkBoxM.Size = new System.Drawing.Size(74, 17);
+            this.checkBoxM.TabIndex = 12;
+            this.checkBoxM.Text = "Masculino";
+            this.checkBoxM.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // checkBoxF
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(171, 265);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(68, 17);
-            this.checkBox2.TabIndex = 13;
-            this.checkBox2.Text = "Feminino";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBoxF.AutoSize = true;
+            this.checkBoxF.Location = new System.Drawing.Point(171, 265);
+            this.checkBoxF.Name = "checkBoxF";
+            this.checkBoxF.Size = new System.Drawing.Size(68, 17);
+            this.checkBoxF.TabIndex = 13;
+            this.checkBoxF.Text = "Feminino";
+            this.checkBoxF.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // checkBoxO
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(241, 265);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(52, 17);
-            this.checkBox3.TabIndex = 14;
-            this.checkBox3.Text = "Outro";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBoxO.AutoSize = true;
+            this.checkBoxO.Location = new System.Drawing.Point(241, 265);
+            this.checkBoxO.Name = "checkBoxO";
+            this.checkBoxO.Size = new System.Drawing.Size(52, 17);
+            this.checkBoxO.TabIndex = 14;
+            this.checkBoxO.Text = "Outro";
+            this.checkBoxO.UseVisualStyleBackColor = true;
             // 
             // label7
             // 
@@ -207,19 +207,19 @@ namespace PedagogyOn_2021
             this.label7.TabIndex = 15;
             this.label7.Text = "Telefone";
             // 
-            // textBox5
+            // textBoxFone
             // 
-            this.textBox5.Location = new System.Drawing.Point(393, 262);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(191, 20);
-            this.textBox5.TabIndex = 16;
+            this.textBoxFone.Location = new System.Drawing.Point(393, 262);
+            this.textBoxFone.Name = "textBoxFone";
+            this.textBoxFone.Size = new System.Drawing.Size(191, 20);
+            this.textBoxFone.TabIndex = 16;
             // 
-            // textBox6
+            // textBoxEndereco
             // 
-            this.textBox6.Location = new System.Drawing.Point(63, 311);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(287, 20);
-            this.textBox6.TabIndex = 17;
+            this.textBoxEndereco.Location = new System.Drawing.Point(63, 311);
+            this.textBoxEndereco.Name = "textBoxEndereco";
+            this.textBoxEndereco.Size = new System.Drawing.Size(287, 20);
+            this.textBoxEndereco.TabIndex = 17;
             // 
             // label8
             // 
@@ -239,12 +239,12 @@ namespace PedagogyOn_2021
             this.label9.TabIndex = 19;
             this.label9.Text = "CEP";
             // 
-            // textBox7
+            // textBoxCep
             // 
-            this.textBox7.Location = new System.Drawing.Point(384, 311);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(200, 20);
-            this.textBox7.TabIndex = 20;
+            this.textBoxCep.Location = new System.Drawing.Point(384, 311);
+            this.textBoxCep.Name = "textBoxCep";
+            this.textBoxCep.Size = new System.Drawing.Size(200, 20);
+            this.textBoxCep.TabIndex = 20;
             // 
             // label10
             // 
@@ -255,53 +255,37 @@ namespace PedagogyOn_2021
             this.label10.TabIndex = 21;
             this.label10.Text = "Bairro";
             // 
-            // textBox8
+            // textBoxBairro
             // 
-            this.textBox8.Location = new System.Drawing.Point(65, 365);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(287, 20);
-            this.textBox8.TabIndex = 22;
+            this.textBoxBairro.Location = new System.Drawing.Point(65, 365);
+            this.textBoxBairro.Name = "textBoxBairro";
+            this.textBoxBairro.Size = new System.Drawing.Size(287, 20);
+            this.textBoxBairro.TabIndex = 22;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(470, 370);
+            this.label11.Location = new System.Drawing.Point(453, 368);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(40, 13);
             this.label11.TabIndex = 23;
             this.label11.Text = "Cidade";
             // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(525, 368);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(60, 17);
-            this.listBox1.TabIndex = 24;
-            // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(357, 372);
+            this.label12.Location = new System.Drawing.Point(358, 368);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(40, 13);
             this.label12.TabIndex = 25;
             this.label12.Text = "Estado";
             // 
-            // listBox2
+            // textBoxEmail
             // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(398, 368);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(60, 17);
-            this.listBox2.TabIndex = 26;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(65, 422);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(519, 20);
-            this.textBox9.TabIndex = 27;
+            this.textBoxEmail.Location = new System.Drawing.Point(65, 422);
+            this.textBoxEmail.Name = "textBoxEmail";
+            this.textBoxEmail.Size = new System.Drawing.Size(519, 20);
+            this.textBoxEmail.TabIndex = 27;
             // 
             // label13
             // 
@@ -321,12 +305,12 @@ namespace PedagogyOn_2021
             this.label14.TabIndex = 29;
             this.label14.Text = "Especialização ";
             // 
-            // textBox10
+            // textBoxEsp
             // 
-            this.textBox10.Location = new System.Drawing.Point(65, 473);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(287, 20);
-            this.textBox10.TabIndex = 30;
+            this.textBoxEsp.Location = new System.Drawing.Point(65, 473);
+            this.textBoxEsp.Name = "textBoxEsp";
+            this.textBoxEsp.Size = new System.Drawing.Size(287, 20);
+            this.textBoxEsp.TabIndex = 30;
             // 
             // label15
             // 
@@ -337,13 +321,13 @@ namespace PedagogyOn_2021
             this.label15.TabIndex = 31;
             this.label15.Text = "Observações";
             // 
-            // textBox11
+            // textBoxObs
             // 
-            this.textBox11.Location = new System.Drawing.Point(65, 523);
-            this.textBox11.Multiline = true;
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(519, 92);
-            this.textBox11.TabIndex = 32;
+            this.textBoxObs.Location = new System.Drawing.Point(65, 523);
+            this.textBoxObs.Multiline = true;
+            this.textBoxObs.Name = "textBoxObs";
+            this.textBoxObs.Size = new System.Drawing.Size(519, 92);
+            this.textBoxObs.TabIndex = 32;
             // 
             // label16
             // 
@@ -354,70 +338,86 @@ namespace PedagogyOn_2021
             this.label16.TabIndex = 33;
             this.label16.Text = "Criar Senha";
             // 
-            // textBox12
+            // textBoxSenha
             // 
-            this.textBox12.Location = new System.Drawing.Point(65, 645);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(287, 20);
-            this.textBox12.TabIndex = 34;
+            this.textBoxSenha.Location = new System.Drawing.Point(65, 645);
+            this.textBoxSenha.Name = "textBoxSenha";
+            this.textBoxSenha.Size = new System.Drawing.Size(287, 20);
+            this.textBoxSenha.TabIndex = 34;
             // 
-            // button2
+            // buttonCad
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(174)))), ((int)(((byte)(179)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(293, 707);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(101, 29);
-            this.button2.TabIndex = 36;
-            this.button2.Text = "Cadastrar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.buttonCad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(174)))), ((int)(((byte)(179)))));
+            this.buttonCad.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonCad.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCad.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonCad.Location = new System.Drawing.Point(293, 707);
+            this.buttonCad.Name = "buttonCad";
+            this.buttonCad.Size = new System.Drawing.Size(101, 29);
+            this.buttonCad.TabIndex = 36;
+            this.buttonCad.Text = "Cadastrar";
+            this.buttonCad.UseVisualStyleBackColor = false;
+            // 
+            // textBoxCidade
+            // 
+            this.textBoxCidade.Location = new System.Drawing.Point(491, 365);
+            this.textBoxCidade.Name = "textBoxCidade";
+            this.textBoxCidade.Size = new System.Drawing.Size(94, 20);
+            this.textBoxCidade.TabIndex = 37;
+            // 
+            // textBoxUF
+            // 
+            this.textBoxUF.Location = new System.Drawing.Point(404, 364);
+            this.textBoxUF.Name = "textBoxUF";
+            this.textBoxUF.Size = new System.Drawing.Size(43, 20);
+            this.textBoxUF.TabIndex = 38;
             // 
             // cadastro2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(193)))), ((int)(((byte)(157)))));
             this.ClientSize = new System.Drawing.Size(686, 778);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox12);
+            this.Controls.Add(this.textBoxUF);
+            this.Controls.Add(this.textBoxCidade);
+            this.Controls.Add(this.buttonCad);
+            this.Controls.Add(this.textBoxSenha);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.textBoxObs);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.textBoxEsp);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.listBox2);
+            this.Controls.Add(this.textBoxEmail);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.textBoxBairro);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.textBoxCep);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBoxEndereco);
+            this.Controls.Add(this.textBoxFone);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.checkBoxO);
+            this.Controls.Add(this.checkBoxF);
+            this.Controls.Add(this.checkBoxM);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBoxOrg);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBoxRg);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBoxCpf);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxNome);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "cadastro2";
-            this.Text = "Form1";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Cadastro de profissionais";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -428,40 +428,40 @@ namespace PedagogyOn_2021
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxNome;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBoxCpf;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBoxRg;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBoxOrg;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBoxM;
+        private System.Windows.Forms.CheckBox checkBoxF;
+        private System.Windows.Forms.CheckBox checkBoxO;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBoxFone;
+        private System.Windows.Forms.TextBox textBoxEndereco;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBoxCep;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBoxBairro;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.ListBox listBox2;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox textBoxEmail;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox textBoxEsp;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox textBoxObs;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox textBoxSenha;
+        private System.Windows.Forms.Button buttonCad;
+        private System.Windows.Forms.TextBox textBoxCidade;
+        private System.Windows.Forms.TextBox textBoxUF;
     }
 }
 

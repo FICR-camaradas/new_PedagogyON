@@ -16,7 +16,7 @@ namespace PedagogyOn_2021
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Perfil());
             Application.Run(new cadastro1());
             Application.Run(new frmLogin());
             Application.Run(new frmChat());

@@ -36,9 +36,9 @@ namespace PedagogyOn_2021
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
+            this.buttonPesquisa = new System.Windows.Forms.Button();
+            this.textBoxBusca = new System.Windows.Forms.TextBox();
+            this.buttonVoltar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -84,38 +84,38 @@ namespace PedagogyOn_2021
             this.Column3.HeaderText = "Bairro";
             this.Column3.Name = "Column3";
             // 
-            // button1
+            // buttonPesquisa
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(69)))), ((int)(((byte)(91)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(433, 20);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(92, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Pesquisar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.buttonPesquisa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(69)))), ((int)(((byte)(91)))));
+            this.buttonPesquisa.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonPesquisa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonPesquisa.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonPesquisa.Location = new System.Drawing.Point(433, 20);
+            this.buttonPesquisa.Name = "buttonPesquisa";
+            this.buttonPesquisa.Size = new System.Drawing.Size(92, 23);
+            this.buttonPesquisa.TabIndex = 1;
+            this.buttonPesquisa.Text = "Pesquisar";
+            this.buttonPesquisa.UseVisualStyleBackColor = false;
             // 
-            // textBox1
+            // textBoxBusca
             // 
-            this.textBox1.Location = new System.Drawing.Point(97, 23);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(330, 20);
-            this.textBox1.TabIndex = 2;
+            this.textBoxBusca.Location = new System.Drawing.Point(97, 23);
+            this.textBoxBusca.Name = "textBoxBusca";
+            this.textBoxBusca.Size = new System.Drawing.Size(330, 20);
+            this.textBoxBusca.TabIndex = 2;
             // 
-            // button4
+            // buttonVoltar
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(174)))), ((int)(((byte)(179)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(12, 12);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(42, 35);
-            this.button4.TabIndex = 9;
-            this.button4.Text = "<";
-            this.button4.UseVisualStyleBackColor = false;
+            this.buttonVoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(174)))), ((int)(((byte)(179)))));
+            this.buttonVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonVoltar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonVoltar.Location = new System.Drawing.Point(12, 12);
+            this.buttonVoltar.Name = "buttonVoltar";
+            this.buttonVoltar.Size = new System.Drawing.Size(42, 35);
+            this.buttonVoltar.TabIndex = 9;
+            this.buttonVoltar.Text = "<";
+            this.buttonVoltar.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
@@ -137,12 +137,14 @@ namespace PedagogyOn_2021
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(193)))), ((int)(((byte)(157)))));
             this.ClientSize = new System.Drawing.Size(604, 545);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonVoltar);
+            this.Controls.Add(this.textBoxBusca);
+            this.Controls.Add(this.buttonPesquisa);
             this.Controls.Add(this.dataGridView1);
             this.Name = "FormBusca";
-            this.Text = "Form1";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "BUSCA DE PROFISSIONAIS";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -158,9 +160,9 @@ namespace PedagogyOn_2021
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button buttonPesquisa;
+        private System.Windows.Forms.TextBox textBoxBusca;
+        private System.Windows.Forms.Button buttonVoltar;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

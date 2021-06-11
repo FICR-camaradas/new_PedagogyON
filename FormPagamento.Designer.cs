@@ -34,7 +34,7 @@ namespace PedagogyOn_2021
             this.btnTransferência = new System.Windows.Forms.Button();
             this.btnPix = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
+            this.buttonVoltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCartaoCredito
@@ -103,18 +103,18 @@ namespace PedagogyOn_2021
             this.label1.TabIndex = 1;
             this.label1.Text = "Selecione a forma de pagamento";
             // 
-            // button4
+            // buttonVoltar
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(174)))), ((int)(((byte)(179)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(12, 12);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(42, 35);
-            this.button4.TabIndex = 11;
-            this.button4.Text = "<";
-            this.button4.UseVisualStyleBackColor = false;
+            this.buttonVoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(174)))), ((int)(((byte)(179)))));
+            this.buttonVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonVoltar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonVoltar.Location = new System.Drawing.Point(12, 12);
+            this.buttonVoltar.Name = "buttonVoltar";
+            this.buttonVoltar.Size = new System.Drawing.Size(42, 35);
+            this.buttonVoltar.TabIndex = 11;
+            this.buttonVoltar.Text = "<";
+            this.buttonVoltar.UseVisualStyleBackColor = false;
             // 
             // frmPagamento
             // 
@@ -122,7 +122,7 @@ namespace PedagogyOn_2021
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(193)))), ((int)(((byte)(157)))));
             this.ClientSize = new System.Drawing.Size(784, 561);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.buttonVoltar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnPix);
             this.Controls.Add(this.btnBoleto);
@@ -144,7 +144,7 @@ namespace PedagogyOn_2021
         private System.Windows.Forms.Button btnTransferência;
         private System.Windows.Forms.Button btnPix;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button buttonVoltar;
     }
 }
 

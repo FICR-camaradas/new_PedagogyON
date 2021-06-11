@@ -13,7 +13,7 @@ using Newtonsoft.Json;
 
 namespace PedagogyOn_2021
 {
-    partial class Form1 : Form
+    partial class Perfil : Form
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -41,16 +41,16 @@ namespace PedagogyOn_2021
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Perfil));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.textBoxBusca = new System.Windows.Forms.TextBox();
+            this.buttonPerfil = new System.Windows.Forms.Button();
+            this.buttonChat = new System.Windows.Forms.Button();
+            this.buttonInfo = new System.Windows.Forms.Button();
+            this.buttonExclamacao = new System.Windows.Forms.Button();
+            this.buttonPesquisar = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -88,79 +88,79 @@ namespace PedagogyOn_2021
             this.label3.TabIndex = 3;
             this.label3.Text = "label3";
             // 
-            // textBox1
+            // textBoxBusca
             // 
-            this.textBox1.Location = new System.Drawing.Point(62, 9);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(372, 20);
-            this.textBox1.TabIndex = 4;
+            this.textBoxBusca.Location = new System.Drawing.Point(62, 9);
+            this.textBoxBusca.Name = "textBoxBusca";
+            this.textBoxBusca.Size = new System.Drawing.Size(372, 20);
+            this.textBoxBusca.TabIndex = 4;
             // 
-            // button1
+            // buttonPerfil
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(174)))), ((int)(((byte)(159)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(356, 229);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(170, 31);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Perfil Completo";
-            this.button1.UseVisualStyleBackColor = false;
+            this.buttonPerfil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(174)))), ((int)(((byte)(159)))));
+            this.buttonPerfil.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonPerfil.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonPerfil.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonPerfil.Location = new System.Drawing.Point(356, 229);
+            this.buttonPerfil.Name = "buttonPerfil";
+            this.buttonPerfil.Size = new System.Drawing.Size(170, 31);
+            this.buttonPerfil.TabIndex = 5;
+            this.buttonPerfil.Text = "Perfil Completo";
+            this.buttonPerfil.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // buttonChat
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(174)))), ((int)(((byte)(179)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(15, 397);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(148, 41);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Chat";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.buttonChat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(174)))), ((int)(((byte)(179)))));
+            this.buttonChat.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonChat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonChat.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonChat.Location = new System.Drawing.Point(15, 397);
+            this.buttonChat.Name = "buttonChat";
+            this.buttonChat.Size = new System.Drawing.Size(148, 41);
+            this.buttonChat.TabIndex = 6;
+            this.buttonChat.Text = "Chat";
+            this.buttonChat.UseVisualStyleBackColor = false;
+            this.buttonChat.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // buttonInfo
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(174)))), ((int)(((byte)(179)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(554, 8);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "Info";
-            this.button3.UseVisualStyleBackColor = false;
+            this.buttonInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(174)))), ((int)(((byte)(179)))));
+            this.buttonInfo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonInfo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonInfo.Location = new System.Drawing.Point(554, 8);
+            this.buttonInfo.Name = "buttonInfo";
+            this.buttonInfo.Size = new System.Drawing.Size(75, 23);
+            this.buttonInfo.TabIndex = 7;
+            this.buttonInfo.Text = "Info";
+            this.buttonInfo.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // buttonExclamacao
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(69)))), ((int)(((byte)(91)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(746, 8);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(42, 35);
-            this.button4.TabIndex = 8;
-            this.button4.Text = "!";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.buttonExclamacao.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(69)))), ((int)(((byte)(91)))));
+            this.buttonExclamacao.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonExclamacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonExclamacao.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonExclamacao.Location = new System.Drawing.Point(746, 8);
+            this.buttonExclamacao.Name = "buttonExclamacao";
+            this.buttonExclamacao.Size = new System.Drawing.Size(42, 35);
+            this.buttonExclamacao.TabIndex = 8;
+            this.buttonExclamacao.Text = "!";
+            this.buttonExclamacao.UseVisualStyleBackColor = false;
+            this.buttonExclamacao.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button5
+            // buttonPesquisar
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(69)))), ((int)(((byte)(91)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button5.Location = new System.Drawing.Point(440, 8);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(89, 23);
-            this.button5.TabIndex = 9;
-            this.button5.Text = "Pesquisar";
-            this.button5.UseVisualStyleBackColor = false;
+            this.buttonPesquisar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(69)))), ((int)(((byte)(91)))));
+            this.buttonPesquisar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonPesquisar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonPesquisar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonPesquisar.Location = new System.Drawing.Point(440, 8);
+            this.buttonPesquisar.Name = "buttonPesquisar";
+            this.buttonPesquisar.Size = new System.Drawing.Size(89, 23);
+            this.buttonPesquisar.TabIndex = 9;
+            this.buttonPesquisar.Text = "Pesquisar";
+            this.buttonPesquisar.UseVisualStyleBackColor = false;
             // 
             // label4
             // 
@@ -196,7 +196,7 @@ namespace PedagogyOn_2021
             this.pictureBox2.TabIndex = 11;
             this.pictureBox2.TabStop = false;
             // 
-            // Form1
+            // Perfil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -204,17 +204,19 @@ namespace PedagogyOn_2021
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.buttonPesquisar);
+            this.Controls.Add(this.buttonExclamacao);
+            this.Controls.Add(this.buttonInfo);
+            this.Controls.Add(this.buttonChat);
+            this.Controls.Add(this.buttonPerfil);
+            this.Controls.Add(this.textBoxBusca);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form1";
+            this.Name = "Perfil";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PedagogyON Perfil do usuário";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -229,12 +231,12 @@ namespace PedagogyOn_2021
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TextBox textBoxBusca;
+        private System.Windows.Forms.Button buttonPerfil;
+        private System.Windows.Forms.Button buttonChat;
+        private System.Windows.Forms.Button buttonInfo;
+        private System.Windows.Forms.Button buttonExclamacao;
+        private System.Windows.Forms.Button buttonPesquisar;
         private System.Windows.Forms.Label label4;
     }
 }
