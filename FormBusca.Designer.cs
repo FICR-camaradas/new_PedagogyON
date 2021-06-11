@@ -144,7 +144,7 @@ namespace PedagogyOn_2021
             this.Name = "FormBusca";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "BUSCA DE PROFISSIONAIS";
+            this.Text = "Busca de profissionais";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

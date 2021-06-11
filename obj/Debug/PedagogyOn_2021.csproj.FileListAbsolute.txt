@@ -65,7 +65,6 @@ B:\projCS\bin\Debug\PedagogyOn_2021.pdb
 B:\projCS\bin\Debug\Newtonsoft.Json.dll
 B:\projCS\bin\Debug\Newtonsoft.Json.xml
 B:\projCS\obj\Debug\PedagogyOn_2021.csprojAssemblyReference.cache
-B:\projCS\obj\Debug\PedagogyOn_2021.Form1.resources
 B:\projCS\obj\Debug\PedagogyOn_2021.FormBusca.resources
 B:\projCS\obj\Debug\PedagogyOn_2021.frmChat.resources
 B:\projCS\obj\Debug\PedagogyOn_2021.FormInfo.resources
@@ -80,3 +79,5 @@ B:\projCS\obj\Debug\PedagogyOn_2021.csproj.CoreCompileInputs.cache
 B:\projCS\obj\Debug\PedagogyOn_2021.csproj.CopyComplete
 B:\projCS\obj\Debug\PedagogyOn_2021.exe
 B:\projCS\obj\Debug\PedagogyOn_2021.pdb
+B:\projCS\obj\Debug\PedagogyOn_2021.cadastro2.resources
+B:\projCS\obj\Debug\PedagogyOn_2021.Perfil.resources
