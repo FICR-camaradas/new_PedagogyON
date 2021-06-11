@@ -23,22 +23,41 @@ namespace PedagogyOn_2021
 
         private void buttonCad_Click(object sender, EventArgs e)
         {
-            Cliente novoCliente = new Cliente();
+            ClienteAux novoCliente = new ClienteAux();
 
-            novoCliente.Nome = textBoxNome.Text;
-            novoCliente.Cpf = textBoxCpf.Text;
-            novoCliente.Rg = textBoxRg.Text;
-            novoCliente.Orgao_exp = textBoxOrg.Text;
-            novoCliente.Data_nasc = dateTimePicker1.Value;
-            novoCliente.Sexo = comboBoxSexo.SelectedItem.ToString();
-            novoCliente.Telefone = textBoxFone.Text;
-            novoCliente.Endereco = textBoxEndereco.Text;
-            novoCliente.Cep = textBoxCep.Text;
-            novoCliente.Cidade = textBoxCidade.Text;
-            novoCliente.Estado = textBoxUF.Text;
-            novoCliente.Email = textBoxEmail.Text;
-            novoCliente.Senha = textBoxSenha.Text;
+            novoCliente.nome = textBoxNome.Text;
+            novoCliente.cpf = textBoxCpf.Text;
+            novoCliente.rg = textBoxRg.Text;
+            novoCliente.orgao_exp = textBoxOrg.Text;
+            novoCliente.data_nasc = dateTimePicker1.Value;
+            novoCliente.sexo = comboBoxSexo.SelectedItem.ToString();
+            novoCliente.telefone = textBoxFone.Text;
+            novoCliente.endereco = textBoxEndereco.Text;
+            novoCliente.cep = textBoxCep.Text;
+            novoCliente.cidade = textBoxCidade.Text;
+            novoCliente.estado = textBoxUF.Text;
+            novoCliente.email = textBoxEmail.Text;
+            novoCliente.senha = textBoxSenha.Text;
 
+            String json = JsonConvert.SerializeObject(novoCliente);
+
+            String rota = "http://localhost:3000/cliente";
+
+            var req = WebRequest.CreateHttp(rota);
+            req.Method = "POST";
+
+            req.ContentType = "application/json; charset = utf-8";
+
+            var byteArray = Encoding.UTF8.GetBytes(json);
+
+            req.ContentLength = byteArray.Length;
+
+            Stream str = req.GetRequestStream();
+            str.Write(byteArray, 0, byteArray.Length);
+            str.Close();
+
+            //MessageBox.Show(json);
+            MessageBox.Show("Cadastro realizado com sucesso!");
 
         }
     }
