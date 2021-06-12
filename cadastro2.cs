@@ -32,24 +32,43 @@ namespace PedagogyOn_2021
 
         private void buttonCad_Click(object sender, EventArgs e)
         {
-            Profissional novoProfissional = new Profissional();
+            ProfissionalAux novoProfissional = new ProfissionalAux();
 
-            novoProfissional.Nome = textBoxNome.Text;
-            novoProfissional.Cpf = textBoxCpf.Text;
-            novoProfissional.Rg = textBoxRg.Text;
-            novoProfissional.Orgao_exp = textBoxOrg.Text;
-            novoProfissional.Data_nasc = dateTimePicker1.Value;
-            novoProfissional.Sexo = comboBoxSexo.SelectedItem.ToString();
-            novoProfissional.Telefone = textBoxFone.Text;
-            novoProfissional.Endereco = textBoxEndereco.Text;
-            novoProfissional.Cep = textBoxCep.Text;
-            novoProfissional.Cidade = textBoxCidade.Text;
-            novoProfissional.Estado = textBoxUF.Text;
-            novoProfissional.Email = textBoxEmail.Text;
-            novoProfissional.Especializacao = textBoxEsp.Text;
-            novoProfissional.Observacoes = textBoxObs.Text;
-            novoProfissional.Senha = textBoxSenha.Text;
+            novoProfissional.nome = textBoxNome.Text;
+            novoProfissional.cpf = textBoxCpf.Text;
+            novoProfissional.rg = textBoxRg.Text;
+            novoProfissional.orgao_expedidor = textBoxOrg.Text;
+            novoProfissional.data_nasc = dateTimePicker1.Value;
+            novoProfissional.sexo = comboBoxSexo.SelectedItem.ToString();
+            novoProfissional.telefone = textBoxFone.Text;
+            novoProfissional.endereco = textBoxEndereco.Text;
+            novoProfissional.cep = textBoxCep.Text;
+            novoProfissional.cidade = textBoxCidade.Text;
+            novoProfissional.estado = textBoxUF.Text;
+            novoProfissional.email = textBoxEmail.Text;
+            novoProfissional.especializacao = textBoxEsp.Text;
+            novoProfissional.observacoes = textBoxObs.Text;
+            novoProfissional.senha = textBoxSenha.Text;
 
+            String json = JsonConvert.SerializeObject(novoProfissional);
+
+            String rota = "http://localhost:3000/profissional";
+
+            var req = WebRequest.CreateHttp(rota);
+            req.Method = "POST";
+
+            req.ContentType = "application/json; charset = utf-8";
+
+            var byteArray = Encoding.UTF8.GetBytes(json);
+
+            req.ContentLength = byteArray.Length;
+
+            Stream str = req.GetRequestStream();
+            str.Write(byteArray, 0, byteArray.Length);
+            str.Close();
+
+            //MessageBox.Show(json);
+            MessageBox.Show("Cadastro realizado com sucesso!");
 
         }
     }

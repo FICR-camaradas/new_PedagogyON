@@ -18,6 +18,7 @@ namespace PedagogyOn_2021
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Perfil());
             Application.Run(new cadastro1());
+            Application.Run(new cadastro2());
             Application.Run(new frmLogin());
             Application.Run(new frmChat());
             Application.Run(new frmPagamento());

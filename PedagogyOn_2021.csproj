@@ -109,6 +109,7 @@
     </Compile>
     <Compile Include="Pessoa.cs" />
     <Compile Include="Profissional.cs" />
+    <Compile Include="ProfissionalAux.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="cadastro2.resx">

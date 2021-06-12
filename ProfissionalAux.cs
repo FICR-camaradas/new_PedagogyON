@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PedagogyOn_2021
 {
-    public class ClienteAux
+    public class ProfissionalAux
     {
         public string nome { get; set; }
 
@@ -31,9 +31,12 @@ namespace PedagogyOn_2021
 
         public string telefone { get; set; }
 
+        public string especializacao { get; set; }
+
+        public string observacoes { get; set; }
+
         public string email { get; set; }
 
         public string senha { get; set; }
-
     }
 }

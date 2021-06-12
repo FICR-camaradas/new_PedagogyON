@@ -28,7 +28,7 @@ namespace PedagogyOn_2021
             novoCliente.nome = textBoxNome.Text;
             novoCliente.cpf = textBoxCpf.Text;
             novoCliente.rg = textBoxRg.Text;
-            novoCliente.orgao_exp = textBoxOrg.Text;
+            novoCliente.orgao_expedidor = textBoxOrg.Text;
             novoCliente.data_nasc = dateTimePicker1.Value;
             novoCliente.sexo = comboBoxSexo.SelectedItem.ToString();
             novoCliente.telefone = textBoxFone.Text;
