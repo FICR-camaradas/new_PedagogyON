@@ -38,6 +38,7 @@ namespace PedagogyOn_2021
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,7 +46,7 @@ namespace PedagogyOn_2021
             // 
             this.tbxEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbxEmail.Location = new System.Drawing.Point(68, 192);
-            this.tbxEmail.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.tbxEmail.Margin = new System.Windows.Forms.Padding(8);
             this.tbxEmail.Name = "tbxEmail";
             this.tbxEmail.Size = new System.Drawing.Size(236, 26);
             this.tbxEmail.TabIndex = 0;
@@ -54,7 +55,7 @@ namespace PedagogyOn_2021
             // 
             this.tbxSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbxSenha.Location = new System.Drawing.Point(66, 286);
-            this.tbxSenha.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.tbxSenha.Margin = new System.Windows.Forms.Padding(8);
             this.tbxSenha.Name = "tbxSenha";
             this.tbxSenha.PasswordChar = '*';
             this.tbxSenha.Size = new System.Drawing.Size(236, 26);
@@ -92,7 +93,7 @@ namespace PedagogyOn_2021
             this.btnEntrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEntrar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnEntrar.Location = new System.Drawing.Point(142, 347);
-            this.btnEntrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEntrar.Margin = new System.Windows.Forms.Padding(2);
             this.btnEntrar.Name = "btnEntrar";
             this.btnEntrar.Size = new System.Drawing.Size(90, 46);
             this.btnEntrar.TabIndex = 2;
@@ -126,6 +127,7 @@ namespace PedagogyOn_2021
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Cadastre-se";
             this.linkLabel2.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(174)))), ((int)(((byte)(159)))));
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // pictureBox1
             // 
@@ -133,12 +135,23 @@ namespace PedagogyOn_2021
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.InitialImage = null;
             this.pictureBox1.Location = new System.Drawing.Point(39, 39);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(30, 30, 30, 30);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(30);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(300, 90);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "PROFISSIONAL",
+            "CLIENTE"});
+            this.comboBox1.Location = new System.Drawing.Point(107, 485);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(160, 21);
+            this.comboBox1.TabIndex = 5;
             // 
             // frmLogin
             // 
@@ -146,6 +159,7 @@ namespace PedagogyOn_2021
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(193)))), ((int)(((byte)(157)))));
             this.ClientSize = new System.Drawing.Size(384, 561);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.linkLabel1);
@@ -154,7 +168,7 @@ namespace PedagogyOn_2021
             this.Controls.Add(this.lblLogin);
             this.Controls.Add(this.tbxSenha);
             this.Controls.Add(this.tbxEmail);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmLogin";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -175,6 +189,7 @@ namespace PedagogyOn_2021
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 

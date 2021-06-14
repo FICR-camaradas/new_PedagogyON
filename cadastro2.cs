@@ -71,5 +71,10 @@ namespace PedagogyOn_2021
             MessageBox.Show("Cadastro realizado com sucesso!");
 
         }
+
+        private void comboBoxSexo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

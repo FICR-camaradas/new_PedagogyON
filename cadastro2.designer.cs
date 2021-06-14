@@ -334,6 +334,7 @@ namespace PedagogyOn_2021
             this.comboBoxSexo.Name = "comboBoxSexo";
             this.comboBoxSexo.Size = new System.Drawing.Size(121, 21);
             this.comboBoxSexo.TabIndex = 39;
+            this.comboBoxSexo.SelectedIndexChanged += new System.EventHandler(this.comboBoxSexo_SelectedIndexChanged);
             // 
             // cadastro2
             // 

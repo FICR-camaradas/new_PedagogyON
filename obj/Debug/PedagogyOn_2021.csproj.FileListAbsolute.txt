@@ -81,3 +81,25 @@ B:\projCS\obj\Debug\PedagogyOn_2021.exe
 B:\projCS\obj\Debug\PedagogyOn_2021.pdb
 B:\projCS\obj\Debug\PedagogyOn_2021.cadastro2.resources
 B:\projCS\obj\Debug\PedagogyOn_2021.Perfil.resources
+C:\New pedagogyON\new_PedagogyON\bin\Debug\PedagogyOn_2021.exe.config
+C:\New pedagogyON\new_PedagogyON\bin\Debug\PedagogyOn_2021.exe
+C:\New pedagogyON\new_PedagogyON\bin\Debug\PedagogyOn_2021.pdb
+C:\New pedagogyON\new_PedagogyON\bin\Debug\Newtonsoft.Json.dll
+C:\New pedagogyON\new_PedagogyON\bin\Debug\Newtonsoft.Json.xml
+C:\New pedagogyON\new_PedagogyON\obj\Debug\PedagogyOn_2021.csprojAssemblyReference.cache
+C:\New pedagogyON\new_PedagogyON\obj\Debug\PedagogyOn_2021.cadastro2.resources
+C:\New pedagogyON\new_PedagogyON\obj\Debug\PedagogyOn_2021.Perfil.resources
+C:\New pedagogyON\new_PedagogyON\obj\Debug\PedagogyOn_2021.FormBusca.resources
+C:\New pedagogyON\new_PedagogyON\obj\Debug\PedagogyOn_2021.frmChat.resources
+C:\New pedagogyON\new_PedagogyON\obj\Debug\PedagogyOn_2021.FormInfo.resources
+C:\New pedagogyON\new_PedagogyON\obj\Debug\PedagogyOn_2021.frmLogin.resources
+C:\New pedagogyON\new_PedagogyON\obj\Debug\PedagogyOn_2021.frmPagamento.resources
+C:\New pedagogyON\new_PedagogyON\obj\Debug\PedagogyOn_2021.cadastro1.resources
+C:\New pedagogyON\new_PedagogyON\obj\Debug\PedagogyOn_2021.FormPerfiLinteiro.resources
+C:\New pedagogyON\new_PedagogyON\obj\Debug\PedagogyOn_2021.PerfilUsuario2.resources
+C:\New pedagogyON\new_PedagogyON\obj\Debug\PedagogyOn_2021.Properties.Resources.resources
+C:\New pedagogyON\new_PedagogyON\obj\Debug\PedagogyOn_2021.csproj.GenerateResource.cache
+C:\New pedagogyON\new_PedagogyON\obj\Debug\PedagogyOn_2021.csproj.CoreCompileInputs.cache
+C:\New pedagogyON\new_PedagogyON\obj\Debug\PedagogyOn_2021.csproj.CopyComplete
+C:\New pedagogyON\new_PedagogyON\obj\Debug\PedagogyOn_2021.exe
+C:\New pedagogyON\new_PedagogyON\obj\Debug\PedagogyOn_2021.pdb
