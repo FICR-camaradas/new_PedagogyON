@@ -147,7 +147,7 @@ namespace PedagogyOn_2021
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "PROFISSIONAL",
-            "CLIENTE"});
+            "PAIS/RESPONSAVEIS"});
             this.comboBox1.Location = new System.Drawing.Point(107, 485);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(160, 21);
