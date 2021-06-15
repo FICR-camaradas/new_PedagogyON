@@ -16,16 +16,13 @@ namespace PedagogyOn_2021
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Perfil());
-            Application.Run(new cadastro1());
-            Application.Run(new cadastro2());
             Application.Run(new frmLogin());
+            Application.Run(new Perfil());
+            Application.Run(new FormBusca());
             Application.Run(new frmChat());
             Application.Run(new frmPagamento());
             Application.Run(new FormPerfiLinteiro());
-            Application.Run(new FormBusca());
             Application.Run(new PerfilUsuario2());
-            Application.Run(new FormBusca());
             Application.Run(new FormInfo());
         }
     }

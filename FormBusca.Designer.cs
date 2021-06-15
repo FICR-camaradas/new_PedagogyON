@@ -31,11 +31,11 @@ namespace PedagogyOn_2021
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormBusca));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colNome = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colProfissao = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colTelefone = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colCidade = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColEstado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.buttonPesquisa = new System.Windows.Forms.Button();
             this.textBoxBusca = new System.Windows.Forms.TextBox();
             this.buttonVoltar = new System.Windows.Forms.Button();
@@ -46,43 +46,53 @@ namespace PedagogyOn_2021
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Nome,
-            this.Column4,
-            this.Column5,
-            this.Column2,
-            this.Column3});
+            this.colNome,
+            this.colProfissao,
+            this.colTelefone,
+            this.colCidade,
+            this.ColEstado});
             this.dataGridView1.Location = new System.Drawing.Point(33, 68);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(541, 367);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // Nome
+            // colNome
             // 
-            this.Nome.HeaderText = "Nome";
-            this.Nome.Name = "Nome";
+            this.colNome.HeaderText = "Nome";
+            this.colNome.Name = "colNome";
+            this.colNome.ReadOnly = true;
             // 
-            // Column4
+            // colProfissao
             // 
-            this.Column4.HeaderText = "Profissão";
-            this.Column4.Name = "Column4";
+            this.colProfissao.HeaderText = "Profissão";
+            this.colProfissao.Name = "colProfissao";
+            this.colProfissao.ReadOnly = true;
             // 
-            // Column5
+            // colTelefone
             // 
-            this.Column5.HeaderText = "Estado";
-            this.Column5.Name = "Column5";
+            this.colTelefone.HeaderText = "Telefone";
+            this.colTelefone.Name = "colTelefone";
+            this.colTelefone.ReadOnly = true;
             // 
-            // Column2
+            // colCidade
             // 
-            this.Column2.HeaderText = "Cidade";
-            this.Column2.Name = "Column2";
+            this.colCidade.HeaderText = "Cidade";
+            this.colCidade.Name = "colCidade";
+            this.colCidade.ReadOnly = true;
             // 
-            // Column3
+            // ColEstado
             // 
-            this.Column3.HeaderText = "Bairro";
-            this.Column3.Name = "Column3";
+            this.ColEstado.HeaderText = "Estado";
+            this.ColEstado.Name = "ColEstado";
+            this.ColEstado.ReadOnly = true;
             // 
             // buttonPesquisa
             // 
@@ -155,15 +165,15 @@ namespace PedagogyOn_2021
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nome;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.Button buttonPesquisa;
         private System.Windows.Forms.TextBox textBoxBusca;
         private System.Windows.Forms.Button buttonVoltar;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colNome;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colProfissao;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colTelefone;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colCidade;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColEstado;
     }
 }
 
