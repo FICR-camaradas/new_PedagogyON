@@ -23,7 +23,7 @@ namespace PedagogyOn_2021
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -33,6 +33,21 @@ namespace PedagogyOn_2021
 
         private void label1_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void buttonGo_Click(object sender, EventArgs e)
+        {
+            if (comboBoxTipo.SelectedIndex == 0)
+            {
+                cadastro2 cad2 = new cadastro2();
+                cad2.ShowDialog();
+            }
+            else if (comboBoxTipo.SelectedIndex == 1)
+            {
+                cadastro1 cad1 = new cadastro1();
+                cad1.ShowDialog();
+            }
 
         }
     }

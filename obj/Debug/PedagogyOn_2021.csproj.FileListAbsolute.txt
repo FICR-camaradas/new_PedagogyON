@@ -103,3 +103,25 @@ C:\New pedagogyON\new_PedagogyON\obj\Debug\PedagogyOn_2021.csproj.CoreCompileInp
 C:\New pedagogyON\new_PedagogyON\obj\Debug\PedagogyOn_2021.csproj.CopyComplete
 C:\New pedagogyON\new_PedagogyON\obj\Debug\PedagogyOn_2021.exe
 C:\New pedagogyON\new_PedagogyON\obj\Debug\PedagogyOn_2021.pdb
+C:\academico\csharp\bin\Debug\PedagogyOn_2021.exe.config
+C:\academico\csharp\bin\Debug\PedagogyOn_2021.exe
+C:\academico\csharp\bin\Debug\PedagogyOn_2021.pdb
+C:\academico\csharp\bin\Debug\Newtonsoft.Json.dll
+C:\academico\csharp\bin\Debug\Newtonsoft.Json.xml
+C:\academico\csharp\obj\Debug\PedagogyOn_2021.csprojAssemblyReference.cache
+C:\academico\csharp\obj\Debug\PedagogyOn_2021.cadastro2.resources
+C:\academico\csharp\obj\Debug\PedagogyOn_2021.Perfil.resources
+C:\academico\csharp\obj\Debug\PedagogyOn_2021.FormBusca.resources
+C:\academico\csharp\obj\Debug\PedagogyOn_2021.frmChat.resources
+C:\academico\csharp\obj\Debug\PedagogyOn_2021.FormInfo.resources
+C:\academico\csharp\obj\Debug\PedagogyOn_2021.frmLogin.resources
+C:\academico\csharp\obj\Debug\PedagogyOn_2021.frmPagamento.resources
+C:\academico\csharp\obj\Debug\PedagogyOn_2021.cadastro1.resources
+C:\academico\csharp\obj\Debug\PedagogyOn_2021.FormPerfiLinteiro.resources
+C:\academico\csharp\obj\Debug\PedagogyOn_2021.PerfilUsuario2.resources
+C:\academico\csharp\obj\Debug\PedagogyOn_2021.Properties.Resources.resources
+C:\academico\csharp\obj\Debug\PedagogyOn_2021.csproj.GenerateResource.cache
+C:\academico\csharp\obj\Debug\PedagogyOn_2021.csproj.CoreCompileInputs.cache
+C:\academico\csharp\obj\Debug\PedagogyOn_2021.csproj.CopyComplete
+C:\academico\csharp\obj\Debug\PedagogyOn_2021.exe
+C:\academico\csharp\obj\Debug\PedagogyOn_2021.pdb
